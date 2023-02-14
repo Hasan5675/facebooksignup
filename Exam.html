@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#dv1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #253a69;
+    background: linear-gradient(#48649F, #3B5998, #3B5998);
+    height: 80px;
+    width: 100%;
+   
+}
+#dv2{
+    display: flex;
+    color: white;
+    align-items: flex-end;
+}
+#dv3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    
+}
+#dv4{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    
+}
+#loginbu{
+   display: flex;
+   align-items: center;
+
+}
+#dv5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+#lists{
+    margin-top: 10px;
+}
+#lables{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+   
+    
+
+#signup{
+    
+    margin-top: 13px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #006117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#6fad5a, #66a150, #60974C);
+}
+#login{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+}
+#space{
+    margin-top: 5px;
+}
+#sel{
+    margin-right: 3px;
+}
+#inputs{
+    width: 259px;
+    height: 26px;
+}
+    </style>
+</head>
+<body style="background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);height: 98vh;">
+    <form>
+ <div id="dv1">
+    <div style="display:flex;">
+    <img class="logo" src="fb.png"></div>
+    <div id="dv2">
+    <div id="dv3">
+        <label>Email</label>
+        <input type="email" >
+        <div>
+        <input type="checkbox">
+        <label>keep me logged in</label>
+        </div>
+    </div>
+    <div id="dv4">
+        <label>Password</label>
+        <input type="password" >
+        <label>forget your password?</label>
+    </div>
+    <div>
+    <button style="margin-bottom: 17px;;" id="login">Login</button>
+</div>
+</div>
+ </div>
+ </form>
+ 
+ <div id="dv5">
+ <div style="display: flex;flex-direction: column;font-size: 24px;margin-left: 175px;" >
+    <label style="font-weight: bold;color: #253a69;font-family: system-ui;">Facebook helps you coonect and share with</label>
+    <label style="font-weight: bold;color: #253a69;font-family: system-ui;">the people in your life.</label>
+    <img style="width: 73vh;height: 47vh;margin-top: 8px;" src="fbbdy.png">
+    <label style="font-size: 50px;font-family: system-ui;color: #083987;">Sign up for Facebook</label>
+    
+ </div>
+ 
+    <form>
+        <div style="color: #253a69;display: flex;flex-direction: column;margin-right: 70px;">
+            <div id="space"> <label style="font-size: 26px;font-family: sans-serif;font-weight: bold;">Sign Up</label><div style="font-size: 21px;font-family: sans-serif;font-weight: bold;"><label> Its free,and always will be</label></div></div>
+            <div style="font-family: monospace;display:flex;flex-direction: column;align-items: flex-end;margin-top: 10px;"> <div id="space"><label id="">First Name:</label><input type="text" id="inputs" ></div>
+         <div style="display:flex;flex-direction: column;align-items: flex-end;"> <div id="space"><label id="">Last Name:</label><input type="text" id="inputs" ></div>
+            <div id="space"><label id="">Your Email:</label><input type="text" id="inputs"></div>
+            <div id="space"><label id="">Re-enter Email:</label><input type="text" id="inputs"></div>
+            <div id="space"><label id="">New Password:</label><input type="text" id="inputs"></div>
+            <div style="margin-right: 199px;margin-top:5px;"><label id="">I am:</label><select><option>Male</option><option>Female</option></select></div>
+            AEB7-0674
+            <div id="space" style="margin-right: 96px;"><label id="">Birthday:</label><select><option>january</option><option>February</option></select>
+                <select id="sel"><option>6</option></select><select id="sel"><option>1980</option></select></div></div>
+            <div style="margin-right: 115px;;font-size: 12px;margin-top: 3px;">
+                <a href="" style="text-decoration: none;">Why do I need to provide this?</a></div>
+            <div style="margin-right:80px;margin-top: 3px;"><button id="signup">Sign Up</button></div>
+            <div style="margin-top: 20px;"><a style="text-decoration: none;" href="#">Create a Page </a><label>for a celebrity,band or business</label></div>
+         </div>
+    </form>
+    
+</div>
+
+
+    
+</body>
+</html>
